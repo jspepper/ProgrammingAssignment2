@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## This function checks to see if the inverse of the special
 ## "matrix" has already been computed. If so, it returns the
 ## inverse from the cache. Otherwise, it first computes the
-## matrix inverse, stores it in the cache, and then returns it
+## matrix inverse, stores it in the cache, and then returns it.
 ## The message indicating that the inverse is being retrieved
 ## from the cache has been left for debugging purposes.
 
